@@ -7,6 +7,9 @@ dependencies:
   - pip=20.3.3
   - mlflow=1.14.1
   - hydra-core=1.0.6
+  - numpy=1.22.4
   - pip:
       - wandb==0.10.21
+      - six==1.16.0
+      - protobuf==3.20.1
       - hydra-joblib-launcher==1.1.2

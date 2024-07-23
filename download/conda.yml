@@ -5,5 +5,8 @@ channels:
 dependencies:
   - requests=2.24.0
   - pip=20.3.3
+  - numpy=1.22.4
   - pip:
       - wandb==0.10.21
+      - six==1.16.0
+      - protobuf==3.20.1
